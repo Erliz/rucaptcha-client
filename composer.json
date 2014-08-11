@@ -1,0 +1,22 @@
+{
+    "name": "erliz/rucaptcha-client",
+    "description": "Client for ruCaptcha",
+    "minimum-stability": "dev",
+    "keywords": ["rucaptcha", "captcha", "client"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stanislav Vetlovskiy",
+            "email": "mrerliz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Erliz": "src"
+        }
+    }
+}
